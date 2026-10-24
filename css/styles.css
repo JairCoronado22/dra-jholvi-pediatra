@@ -1,10 +1,4 @@
-/* =========================================================
-   DRA. JHOLVI BERMEJO - PEDIATRÍA
-   Paleta: rosado suave + verde salvia
-   ========================================================= */
-
 :root {
-  /* Paleta pediátrica: un poco más viva, sin perder suavidad */
   --pink-50: #fff0f4;
   --pink-100: #fbdce5;
   --pink-200: #f3bfd0;
@@ -87,7 +81,6 @@ h4,
   top: 0;
 }
 
-/* Navbar */
 .navbar {
   min-height: 78px;
   padding-block: 10px;
@@ -191,7 +184,6 @@ h4,
   background: var(--green-50);
 }
 
-/* Hero */
 .hero {
   position: relative;
   min-height: 780px;
@@ -425,7 +417,6 @@ h4,
   clip-path: polygon(0 52%, 9% 36%, 19% 51%, 28% 32%, 39% 52%, 51% 34%, 63% 51%, 76% 31%, 89% 49%, 100% 34%, 100% 100%, 0 100%);
 }
 
-/* Trust strip */
 .trust-strip {
   padding: 24px 0 12px;
 }
@@ -478,7 +469,6 @@ h4,
   font-size: .72rem;
 }
 
-/* Sections */
 .section {
   padding: 105px 0;
 }
@@ -512,7 +502,6 @@ h4,
   color: #ffe2eb;
 }
 
-/* Profile */
 .profile-photo-card,
 .profile-card {
   border: 1px solid var(--line);
@@ -704,7 +693,6 @@ h4,
   font-weight: 700;
 }
 
-/* Services */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -789,7 +777,6 @@ h4,
   font-size: 1.08rem;
 }
 
-/* Stage tabs */
 .stage-tabs {
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
@@ -897,7 +884,6 @@ h4,
   font-weight: 700;
 }
 
-/* Family */
 .family-section {
   background:
     linear-gradient(90deg, rgba(245,250,247,.95), rgba(255,247,249,.84)),
@@ -960,7 +946,6 @@ h4,
   color: var(--pink-600);
 }
 
-/* Vaccines */
 .vaccine-section {
   background:
     radial-gradient(circle at 12% 20%, rgba(216,127,153,.08), transparent 25%),
@@ -1077,7 +1062,6 @@ h4,
   object-fit: contain;
 }
 
-/* Locations */
 .locations-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1169,7 +1153,6 @@ h4,
   gap: 8px;
 }
 
-/* Specialists */
 .specialists-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1267,7 +1250,6 @@ h4,
   margin-top: 0;
 }
 
-/* Contact */
 .contact-section {
   padding: 40px 0 100px;
 }
@@ -1411,7 +1393,6 @@ button.contact-action {
   font-size: .88rem;
 }
 
-/* Footer */
 .footer {
   padding: 50px 0 24px;
   color: #dbe3df;
@@ -1480,7 +1461,6 @@ button.contact-action {
   font-size: .72rem;
 }
 
-/* Floating controls */
 .floating-whatsapp {
   position: fixed;
   z-index: 1050;
@@ -1557,7 +1537,6 @@ button.contact-action {
   transform: translate(-50%, 0);
 }
 
-/* Reveal animation */
 .reveal {
   opacity: 0;
   transform: translateY(24px);
@@ -1569,7 +1548,6 @@ button.contact-action {
   transform: translateY(0);
 }
 
-/* Responsive */
 @media (max-width: 1199.98px) {
   .services-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -1910,11 +1888,6 @@ button.contact-action {
 }
 
 
-/* =========================================================
-   GALERÍA DE ATENCIÓN
-   Usa exclusivamente la paleta original rosado + verde.
-   ========================================================= */
-
 .care-gallery-section {
   position: relative;
   overflow: hidden;
@@ -2029,7 +2002,6 @@ button.contact-action {
   opacity: 1;
 }
 
-/* Modal */
 .care-gallery-modal .modal-dialog {
   max-width: min(1180px, calc(100vw - 32px));
 }
@@ -2249,7 +2221,6 @@ button.contact-action {
 }
 
 
-/* Icono de nutrición pediátrica */
 .specialty-icon-apple {
   color: var(--green-700);
 }

@@ -11,7 +11,6 @@
 
   if (year) year.textContent = new Date().getFullYear();
 
-  // Animaciones suaves al entrar en pantalla.
   const revealElements = document.querySelectorAll(".reveal");
 
   if ("IntersectionObserver" in window) {
@@ -32,7 +31,6 @@
     revealElements.forEach((element) => element.classList.add("visible"));
   }
 
-  // Estado del navbar y sección activa.
   let ticking = false;
 
   function updateOnScroll() {
@@ -69,7 +67,6 @@
 
   updateOnScroll();
 
-  // Cierra el menú móvil al seleccionar una opción.
   navLinks.forEach((link) => {
     link.addEventListener("click", () => {
       if (!navbarMenu || !navbarMenu.classList.contains("show")) return;
@@ -83,7 +80,6 @@
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
-  // Copiar número de contacto.
   let toastTimer;
 
   function showToast(message) {
@@ -132,7 +128,6 @@
   });
 
 
-  // Galería fotográfica de atención.
   const careGalleryModalElement = document.getElementById("careGalleryModal");
   const careGalleryCarouselElement = document.getElementById("careGalleryCarousel");
 
@@ -159,7 +154,6 @@
     });
   }
 
-  // Modal para ampliar el material de vacunas.
   const galleryModalElement = document.getElementById("galleryModal");
   const galleryImage = document.getElementById("galleryImage");
 
